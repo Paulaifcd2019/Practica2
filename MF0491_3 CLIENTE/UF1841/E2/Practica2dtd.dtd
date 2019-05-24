@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- DTD generado con XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) -->
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT planeta (nombre, diametro, velocidadorbital, satelites)>
+<!ELEMENT diametro (#PCDATA)>
+<!ELEMENT estrella (nombre, diametro)>
+<!ELEMENT satelites (#PCDATA)>
+<!ELEMENT Sistemasolar (estrella, planeta+)>
+<!ATTLIST Sistemasolar
+	xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+	xmlns:xsi CDATA #FIXED "http://www.w3.org/2001/XMLSchema-instance"
+>
+<!ELEMENT velocidadorbital (#PCDATA)>

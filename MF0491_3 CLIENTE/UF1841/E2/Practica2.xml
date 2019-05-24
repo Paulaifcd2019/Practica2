@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Sistemasolar SYSTEM "C:\IFCD0210\MF0491_3 CLIENTE\UF1841\E2\Practica2dtd.dtd">
+<Sistemasolar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/IFCD0210/MF0491_3%20CLIENTE/UF1841/E2/Practica2schema.xsd">
+	<estrella>
+		<nombre>Sol</nombre>
+		<diametro>1,392.000 km</diametro>
+	</estrella>
+	<planeta>
+		<nombre>Mercurio</nombre>
+		<diametro>4.879,4 km</diametro>
+		<velocidadorbital>47,8725 km/s</velocidadorbital>
+		<satelites>0</satelites>
+	</planeta>
+	<planeta>
+		<nombre>Venus</nombre>
+		<diametro>12.104 km</diametro>
+		<velocidadorbital>35,0214 km/s</velocidadorbital>
+		<satelites>0</satelites>
+	</planeta>
+	<planeta>
+		<nombre>Tierra</nombre>
+		<diametro>12.742 km</diametro>
+		<velocidadorbital>29,78 km/s</velocidadorbital>
+		<satelites>1</satelites>
+	</planeta>
+	<planeta>
+		<nombre>Marte</nombre>
+		<diametro>6.779 km</diametro>
+		<velocidadorbital>24,077 km/s</velocidadorbital>
+		<satelites>2</satelites>
+	</planeta>
+	<planeta>
+		<nombre>Jupiter</nombre>
+		<diametro>139.820 km</diametro>
+		<velocidadorbital>13,0697 km/s</velocidadorbital>
+		<satelites>79</satelites>
+	</planeta>
+	<planeta>
+		<nombre>Saturno</nombre>
+		<diametro>120 536 km</diametro>
+		<velocidadorbital>9,672 km/s</velocidadorbital>
+		<satelites>62</satelites>
+	</planeta>
+	<planeta>
+		<nombre>Urano</nombre>
+		<diametro>51.118 km</diametro>
+		<velocidadorbital>6,81 km/s</velocidadorbital>
+		<satelites>27</satelites>
+	</planeta>
+	<planeta>
+		<nombre>Neptuno</nombre>
+		<diametro>49.572 km</diametro>
+		<velocidadorbital>5,4778 km/s</velocidadorbital>
+		<satelites>14</satelites>
+	</planeta>
+</Sistemasolar>
